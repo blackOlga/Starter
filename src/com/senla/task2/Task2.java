@@ -11,6 +11,8 @@ public class Task2 {
 
 
     public static void main(String[] args) {
+        Night night = new Night();
+        night.test();
         Byte  d =100;
         Short e = 12000;
         Integer k = 185;
