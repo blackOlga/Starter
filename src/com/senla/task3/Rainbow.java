@@ -7,7 +7,6 @@ public class Rainbow {
     public static void main(String[] args) {
         Artist artist = new Artist();
 
-
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите любую цифру от 1 до 8 : ");
         String number = scanner.nextLine();

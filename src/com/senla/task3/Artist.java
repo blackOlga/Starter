@@ -14,16 +14,16 @@ public class Artist {
     private static final String GREY = " 8";
 
 
-    public void palette (String number) {
+    public void palette(String number) {
 
         if (RED.equals(number)) {
             System.out.println("Красный");
-        }  else if (YELLOW_RED.equals(number)) {
-            System.out.println("YELLOW_RED");
+        } else if (YELLOW_RED.equals(number)) {
+            System.out.println("Жёлто-красный");
         } else if (YELLOW.equals(number)) {
-            System.out.println(YELLOW);
+            System.out.println("Жёлтый");
         } else if (GREEN.equals(number)) {
-            System.out.println(GREEN);
+            System.out.println("Зелёный");
         } else {
             System.out.println("нет подходящего цвета");
 
@@ -32,21 +32,27 @@ public class Artist {
 
         switch (number) {
             case WHITE_BLUE: {
-                System.out.println(WHITE_BLUE);
+                System.out.println("Бело-синий");
             }
+            break;
             case BLUE: {
-                System.out.println(BLUE);
+                System.out.println("Синий");
             }
+            break;
             case PURPLE: {
-                System.out.println(PURPLE);
+                System.out.println("Фиолетовый");
             }
+            break;
             case GREY: {
-                System.out.println(GREY);
+                System.out.println("Серый");
             }
-
+            default: {
+                System.out.println("нет подходящего цвета");
+            }
         }
     }
 }
+
 
 
 
