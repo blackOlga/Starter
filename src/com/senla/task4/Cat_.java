@@ -1,7 +1,7 @@
 package com.senla.task4;
 
 import java.util.Random;
-public class Cat {
+public class Cat_ {
 
     String[] arrayCats = new String[10];
     int[] arrayAgeCats = new int[10];
@@ -26,7 +26,7 @@ public class Cat {
     }
 
 
-    public Cat(String name, int age) {
+    public Cat_(String name, int age) {
         this.name = name;
         this.age = age;
     }

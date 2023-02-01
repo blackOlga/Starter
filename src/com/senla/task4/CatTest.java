@@ -1,9 +1,7 @@
 package com.senla.task4;
 
-import java.util.Random;
 
-
-public class Drive {
+public class CatTest {
 
 
     public static void menu() {
